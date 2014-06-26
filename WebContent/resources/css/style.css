@@ -1,0 +1,123 @@
+body {
+
+	background: url(img/ox.jpg) no-repeat center center fixed;
+	font-family:georgia;
+	margin:0 auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+#admin-action {
+ 	border:1px dashed black;
+ 	min-height: 350px;
+ 	padding-top: 25px;
+ }
+
+ #container {
+ 	 	  	
+ 	width:960px;margin: 0 auto;
+ 	min-height:1210px;
+	margin-bottom:25px;
+	margin-top:25px;
+ 
+ }
+
+ #content{
+ 	
+ 	background-color: rgba(255,255,255,0.85);
+	height:1020px;
+	border: 1px dashed black;
+
+ }
+
+ #header {margin-bottom:35px;}
+ #header h1{
+ 
+	font-family:Niconne;min-height:50px;
+	font-size:82px;
+	
+	-webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+       5px 5px 0 #000,
+     -3px -3px 0 #000,  
+      3px -3px 0 #000,
+      -3px 3px 0 #000,
+       3px 3px 0 #000;
+	
+ } 
+
+ #navi {background-color:rgba(128,0,0, 1);min-height:60px;border: 1px dashed black;}
+ #footer{background-color:rgba(128,0,0, 1);min-height:50px;border: 1px dashed black;}
+
+a:link, a:visited {
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+ #content {border:1px dashed black;min-height:500px;padding:15px;}
+
+ li {list-style:none;display:inline;margin-right: 20px}
+
+input[type=text] {height:25px;}
+input[type=password] {height:25px;}
+input[type=checkbox]{float:left; margin-right:5px;}
+
+.error {
+	color: #ff0000;
+}
+.errorblock{
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding:8px;
+	margin:16px;
+}
+
+
+.post {
+
+/* This centers the image */
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+/* This adds the border */
+padding:8px;
+border:solid;
+border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+border-width: 1px 2px 2px 1px;
+background-color:white;
+}
+
+
+
+.polaroid {
+  position: relative;
+  width: 200px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  
+  width: 100%;
+  bottom: 0px;
+  font: 400 23px/1 'Niconne', cursive;
+  color: black;
+}
