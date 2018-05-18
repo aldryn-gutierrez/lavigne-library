@@ -1,4 +1,5 @@
-lavigne-library
+Simple Library System
+
 ===============
 
-A simple Library System with book management features.
+A simple Library System written in Java
